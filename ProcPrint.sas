@@ -2,5 +2,5 @@
 data test;
 	set sashelp.class;
 run;
-proc print data=test;
+proc print data=sashelp.cars;
 run;
